@@ -35,7 +35,7 @@ namespace MimeDetective
         public readonly static FileType WORD = new FileType(new byte?[] { 0xEC, 0xA5, 0xC1, 0x00 }, 512, "doc", "application/msword");
         public readonly static FileType EXCEL = new FileType(new byte?[] { 0x09, 0x08, 0x10, 0x00, 0x00, 0x06, 0x05, 0x00 }, 512, "xls", "application/excel");
         public readonly static FileType PPT = new FileType(new byte?[] { 0xFD, 0xFF, 0xFF, 0xFF, null, 0x00, 0x00, 0x00 }, 512, "ppt", "application/mspowerpoint");
-        public readonly static FileType DOC_8 = new FileType(new byte?[] { 70, 70, 76 }, "doc8", "application/msword");
+        public readonly static FileType DOC_8 = new FileType(new byte?[] { 70, 70, 76 }, "doc8", "application/mswoprd");
 
 
         //ms office and openoffice docs (they're zip files: rename and enjoy!)
